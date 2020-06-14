@@ -64,7 +64,7 @@ button {
     text-align: center;
 }
 #universityContent {
-    background-image: url("/assets/20200612102906_002.jpg");
+    background-image: url("20200612102906_002.jpg");
 }
 #universityContent:hover {
     transform: scale(1.25);
@@ -77,7 +77,7 @@ button {
     transition: ease-in-out .5s;
 }
 #bootcampContent {
-    background-image: url("/assets/20200612102906_001.jpg");
+    background-image: url("20200612102906_001.jpg");
 }
 .innerText {
     margin: 25px;
