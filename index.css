@@ -83,42 +83,42 @@ button:active {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    background-image: url("../assets/funwithforums.png");
+    background-image: url("assets/funwithforums.png");
 }
 #funwithForumsPhoto:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: black;
-    background-image: url("../assets/funHover.png");
+    background-image: url("assets/funHover.png");
     transition: 1s;
 }
 #ricoDepotPhoto {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    background-image: url("../assets/ricodepot.png");
+    background-image: url("assets/ricodepot.png");
 }
 #ricoDepotPhoto:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: black;
-    background-image: url("../assets/ricoHover.png");
+    background-image: url("assets/ricoHover.png");
     transition: 1s;
 }
 #soundFoundPhoto {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    background-image: url("../assets/foundsound.png");
+    background-image: url("assets/foundsound.png");
 }
 #soundFoundPhoto:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-color: black;
-    background-image: url("../assets/soundHover.png");
+    background-image: url("assets/soundHover.png");
     transition: 1s;
 }
 .picture {
