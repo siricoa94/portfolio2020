@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrew Sirico</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navAndVid.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
@@ -16,29 +17,77 @@
     </header>
     <div id="container">
         <nav>
-            <button id="aboutBtn">About</button>
-            <button id="contactBtn">Contact</button>
+            <div id="navInnerContainer">
+                <h1>Projects</h1>
+            </div>
+            <div id="navBtnContainer">
+                <button id="aboutBtn">Education</button>
+                <button id="contactBtn">Contact</button>
+            </div>
         </nav>
         <div id="projectContainer">
             <div  id="funWithForumDiv" class="projectDiv">
-                <div id="funwithForumsPhoto" class="picture"></div>
+                <div class="pictureOuterContainer">
+                    <div data-id="funWithForums" id="funwithForumsPhoto" class="picture"></div>
+                </div>
                 <div class="pictureTextDiv">
-                    <a href="https://funwithforums.herokuapp.com/" target="_blank">Fun With Forums</a>
-                    <p>Fun With Forums is a note taking application that lets you create, update, and delete notes. This application is built using HTML, CSS, Javascript, Node.js/express, firebase, and MySql.</p>
+                    <h3>Fun With Forums</h3>
+                    <p>Fun With Forums is a note taking application that lets you create, update, and delete notes. When first appearing on the page, users are prompted to click a button for log in where they can either sign up as a new user or sign in. Upon login you are brought to the main page which displays two forum fields, one for a post title and another for the content of the post. Once a user submits a post it will be appended to the chalk board below. Users can edit the body of their posts or delete them if they so choose to do so.</p>
+                    <div class="listContainer">
+                        <h4>Geting Started</h4>
+                        <h5>In order to run this application you will need to utilize the following technologies.</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript/Jquery</li>
+                            <li>Node.js/Express</li>
+                            <li>MySql</li>
+                            <li>Firebase</li>
+                        </ul>
+                        <a href="https://funwithforums.herokuapp.com/" target="_blank">Fun With Forums</a>
+                    </div>
                 </div>
             </div>
             <div  id="soundFoundDiv" class="projectDiv">
-                <div id="soundFoundPhoto" class="picture"></div>
+                <div class="pictureOuterContainer">
+                    <div data-id="soundFound" id="soundFoundPhoto" class="picture"></div>
+                </div>
                 <div class="pictureTextDiv">
-                    <a href="https://foundsound.herokuapp.com/" target="_blank">Found Sound</a>
-                    <p>Found Sound is a simple yet effective application for delivering sound samples. This application utilizes Jquery to preform an ajax call to retrieve data from the Deezer API and Rapid API to generate the key.</p>
+                    <h3>Found Sound</h3>
+                    <p>Found Sound is the perfrect application for anyone who would like to sample some music by an artist. Simply type into the search bar an artist, song, or album name and Found Sound will return you a list of samples based off the search phrase that was provided. Having a simple, yet elegant design, sound found is easy to navigate and use for any user.</p>
+                    <div class="listContainer">
+                        <h4>Geting Started</h4>
+                        <h5>In order to run this application you will need to utilize the following technologies.</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript/Jquery</li>
+                            <li>Node.js/Express (optional for hosting/deployment)</li>
+                        </ul>
+                        <a href="https://foundsound.herokuapp.com/" target="_blank">Found Sound</a>
+                    </div>
                 </div>
             </div>
             <div id="ricoDepotDiv" class="projectDiv">
-                <div id="ricoDepotPhoto" class="picture"></div>
+                <div class="pictureOuterContainer">
+                    <div data-id="ricoDepot" id="ricoDepotPhoto" class="picture"></div>
+                </div>
                 <div class="pictureTextDiv">
-                    <a href="https://ricodepot.herokuapp.com/" target="_blank">Rico Depot</a>
-                    <p>Rico Depot is a "mock" online marketplace where users can sign up and purchase products using credits. Users can also update their profiles and see their purchase histories. Furthermore, there is a leaderboard that displays the "Top Spender" on the website!</p>
+                    <h3>Rico Depot</h3>
+                    <p>Rico Depot is a marketplace/game application that works as follows. Upon signing up a user is given 10,000 credits and is allowed to purchase products listed on the products page. When a user buys a product, their purchase history will be appened to their homepage. Users can also view how their spending habits score up against other users on the leaderboard page.</p>
+                    <div class="listContainer">
+                        <h4>Geting Started</h4>
+                        <h5>In order to run this application you will need to utilize the following technologies.</h5>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript/Jquery</li>
+                            <li>Node.js/Express</li>
+                            <li>MySql</li>
+                            <li>Firebase</li>
+                        </ul>
+                        <a href="https://ricodepot.herokuapp.com/" target="_blank">Rico Depot</a>
+                    </div>
                 </div>
             </div>
         </div>

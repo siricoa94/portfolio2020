@@ -1,0 +1,32 @@
+nav {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+    bottom: 0%;
+    background-color: rgb(34, 34, 34);
+}
+#navInnerContainer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+#navBtnContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+button {
+    margin-top: 50px;
+    border: 2px rgb(0, 19, 128) outset;
+    background-color: rgb(89, 132, 252) ;
+    color: white;
+    border-radius: .25rem;
+    height: 50px;
+    width: 150px;
+    outline: none;
+}
+button:hover {
+    transform: scale(1.15);
+    transition: 0.2s;
+}

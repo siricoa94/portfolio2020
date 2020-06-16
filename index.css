@@ -6,57 +6,18 @@ body {
 }
 #container {
     position: relative;
-    background-color: rgb(212, 212, 212);
+    background-image: url("https://images.unsplash.com/photo-1515155075601-23009d0cb6d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     padding-bottom: 50px;
-    top: 450px;
-}
-header {
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 475px;
-    margin: 0px;
-    border: 0px;
-}
-video {
-    width: 100%;
-    height: 100%;
-}
-nav {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
-    background-color: rgb(34, 34, 34);
-}
-#videoBW {
-    display: none;
-}
-button {
-    margin-top: 50px;
-    border: 2px rgb(0, 19, 128) solid;
-    background-color: rgb(89, 132, 252) ;
-    color: white;
-    border-radius: 10rem;
-    height: 150px;
-    width: 150px;
-    outline: none;
-}
-button:hover {
-    transform: scale(1.15);
-    transition: 0.2s;
-}
-button:active {
-    transform: scale(1.0);
-    transition: 0.2s;
+    top: 70vh;
 }
 #projectContainer {
     position: relative;
-    background-color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0.781);
     width: 95%;
     left: 2.5%;
     right: 2.5%;
@@ -68,14 +29,11 @@ button:active {
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
-    background-color: rgb(212, 212, 212);
+    background-color: #F1E9DB;
     border-radius: .25rem;
     width: 90%;
     left: 5%;
     right: 5%;
-    padding-bottom: 150px;
-    padding-top: 150px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -92,6 +50,7 @@ button:active {
     background-color: black;
     background-image: url("funHover.png");
     transition: 1s;
+    transform: scale(.69);
 }
 #ricoDepotPhoto {
     background-repeat: no-repeat;
@@ -106,6 +65,7 @@ button:active {
     background-color: black;
     background-image: url("ricoHover.png");
     transition: 1s;
+    transform: scale(.69);
 }
 #soundFoundPhoto {
     background-repeat: no-repeat;
@@ -120,35 +80,126 @@ button:active {
     background-color: black;
     background-image: url("soundHover.png");
     transition: 1s;
+    transform: scale(.69);
+}
+.pictureOuterContainer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 40%;
+    background-color: #EBD4CB;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
 }
 .picture {
     border-radius: 100%;
-    width: 550px;
-    height: 550px;
+    width: 100%;
+    height: 500px;
 }
 .pictureTextDiv{
-    width: 550px;
-    height: 550px;
+    width: 60%;
+    height: 500px;
+    padding: 15px;
 }
-@media only screen and (max-width: 1200px) {
+.listContainer > ul {
+    text-align:left;
+}
+@media only screen and (max-width: 1000px) {
     .picture {
-        width: 400px;
-        height: 400px;
+        width: 60%;
+        height: 250px;
     }
     .pictureTextDiv{
-        padding: 5px;
-        width: 400px;
-        height: 400px;
+        padding: 15px;
+        width: 60%;
+        height: 500px;
+        background-color: #F1E9DB;
+        position: relative;
+        margin: auto;
+        width: 80%;
+    }
+    .projectDiv {
+        position: relative;
+        display: initial;
+        justify-content: center;
+        background-color: #F1E9DB;
+        border-radius: .25rem;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+    .pictureOuterContainer {
+        position: relative;
+        justify-self: center;
+        background-color: #EBD4CB;
+        width: 80%;
+        margin: auto;
+        height: 250px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .picture {
+        width: 60%;
+        height: 250px;
+    }
+    .pictureTextDiv{
+        padding: 15px;
+        width: 60%;
+        height: 600px;
+        background-color: #F1E9DB;
+        position: relative;
+        margin: auto;
+        width: 80%;
+    }
+    .projectDiv {
+        position: relative;
+        display: initial;
+        justify-content: center;
+        background-color: #F1E9DB;
+        border-radius: .25rem;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+    .pictureOuterContainer {
+        position: relative;
+        justify-self: center;
+        background-color: #EBD4CB;
+        width: 80%;
+        margin: auto;
+        height: 250px;
     }
 }
 @media only screen and (max-width: 600px) {
     .picture {
-        width: 250px;
+        width: 60%;
         height: 250px;
     }
     .pictureTextDiv{
-        padding: 5px;
-        width: 250px;
+        padding: 15px;
+        width: 60%;
+        height: 700px;
+        background-color: #F1E9DB;
+        position: relative;
+        margin: auto;
+        width: 80%;
+    }
+    .projectDiv {
+        position: relative;
+        display: initial;
+        justify-content: center;
+        background-color: #F1E9DB;
+        border-radius: .25rem;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+    .pictureOuterContainer {
+        position: relative;
+        justify-self: center;
+        background-color: #EBD4CB;
+        width: 80%;
+        margin: auto;
         height: 250px;
     }
 }
